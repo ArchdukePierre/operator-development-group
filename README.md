@@ -16,6 +16,16 @@ You can run it two ways. On its own it starts the game for you. If you would rat
 "C:\path\to\ODG Ops\ODG Ops.exe" %command%
 ```
 
+## Windows will warn you the first time
+
+The launcher is not code signed, so Windows SmartScreen shows "Windows protected your PC" the first
+few times anyone downloads it. Click **More info**, then **Run anyway**. Your antivirus may also hold
+it for a moment on first run. This is what an unsigned program from a small project looks like, and it
+will settle down as more people run it.
+
+The launcher asks for administrator rights when it starts. It needs them because it writes into the
+game folder, and on a default Steam path that sits under Program Files.
+
 ## What you get
 
 Every mod has its own switch in the launcher, so you can turn any of them off before you play.
