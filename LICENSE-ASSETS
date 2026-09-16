@@ -1,0 +1,51 @@
+ODG OPERATIONS ASSET LICENCE
+Copyright (C) 2026 Archduke, Operator Development Group. All rights reserved.
+
+
+COVERS
+
+Everything ODG Operations produces that is not source code:
+
+  - content.odgpak and everything sealed inside it
+  - the mapdata archives shipped as release assets
+  - every map, model, mesh, texture, material and animation
+  - every icon, logo, patch, camouflage pattern and garment
+  - audio of any kind
+  - the compiled binaries in our releases
+
+The source code in this repository is licensed separately under the GNU General
+Public License version 3. See LICENSE. Nothing in this file restricts your
+rights under the GPL with respect to that code.
+
+
+TERMS
+
+All rights reserved. No licence is granted to copy, redistribute, modify,
+reverse engineer, extract, repackage, sell or publish any of this material,
+alone or as part of another work.
+
+You may use these assets to play OPERATOR with ODG Operations installed on your
+own machine. For anything else, ask.
+
+
+EXCEPTIONS
+
+Some assets we ship are third party works used under their own licences, usually
+Creative Commons Attribution. Those keep their own terms and their own credits,
+which travel with them in the PROVENANCE files inside the relevant release
+assets. This licence does not override or claim them.
+
+One file in this repository is not covered here:
+
+  src/FireteamRoles.Mod/epinephrine.png
+
+It is compiled into FireteamRoles.Mod as an embedded resource, so it forms part
+of the corresponding source of a GPL binary and carries GPL terms. It is
+licensed under the GNU General Public License version 3 or later. No other
+artwork is.
+
+
+OPERATOR
+
+OPERATOR is not ours. This repository contains no game code, no game assets and
+no decompiled material.

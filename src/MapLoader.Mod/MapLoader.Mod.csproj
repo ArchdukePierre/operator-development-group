@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <AssemblyName>MapLoader.Mod</AssemblyName>
+    <RootNamespace>MapLoader</RootNamespace>
+    <DebugType>portable</DebugType>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <GenerateDependencyFile>false</GenerateDependencyFile>
+    <ProduceReferenceAssembly>false</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="$(OperatorDir)\MelonLoader\net6\MelonLoader.dll" Private="false" />
+    <Reference Include="$(OperatorDir)\MelonLoader\net6\0Harmony.dll" Private="false" />
+    <Reference Include="$(OperatorDir)\MelonLoader\net6\Il2CppInterop.Runtime.dll" Private="false" />
+    <Reference Include="$(OperatorDir)\MelonLoader\Il2CppAssemblies\*.dll" Private="false" />
+  </ItemGroup>
+
+  <PropertyGroup Condition="'$(OdgPublic)' == 'true'">
+    <DefineConstants>$(DefineConstants);ODG_PUBLIC</DefineConstants>
+  </PropertyGroup>
+
+</Project>

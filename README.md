@@ -66,6 +66,43 @@ The pack ships ODG Diagnostics, which keeps a record of what the game was doing.
 
 Report problems on the [issues page](https://github.com/ArchdukePierre/operator-development-group/issues).
 
+## Source
+
+The mods are open source. Everything in `mods.zip` is in [`src/`](src) under the
+GNU General Public License version 3.
+
+Fork it if you want. Keep the notices, and do not call it ODG. See [NOTICE](NOTICE)
+and [TRADEMARKS.md](TRADEMARKS.md).
+
+### Building
+
+You need the .NET SDK and a copy of OPERATOR that has been launched once with
+MelonLoader, since the projects reference the game's assemblies from your install.
+
+```
+dotnet build src/MapLoader.Mod -c Release -p:OdgPublic=true -p:OperatorDir="D:\Games\OPERATOR"
+```
+
+`OperatorDir` defaults to the usual Steam path. You can set it as an environment
+variable instead of passing it each time.
+
+`OdgPublic=true` makes a public build. Without it you also get the map authoring
+console. Every release is built with it on.
+
+`src/NewSlots.Mod/ContentKey.g.cs` is a placeholder. The real key is not public, so
+NewSlots built from this source runs but cannot open our content pack.
+
+### Licences
+
+Code in `src/` is GPL-3.0-or-later. See [LICENSE](LICENSE).
+
+Maps, models, textures, audio, patches, camo and the packaged content in our
+releases are all rights reserved and are not in this repository. See
+[LICENSE-ASSETS](LICENSE-ASSETS).
+
+There is no game code and nothing decompiled here. The mods build against OPERATOR
+on your machine and redistribute no part of it.
+
 ## Credits
 
 Built by Archduke and the Operator Development Group.

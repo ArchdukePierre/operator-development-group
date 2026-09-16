@@ -1,0 +1,14 @@
+<Project>
+
+  <PropertyGroup>
+    <!-- Your OPERATOR install. Override with an OperatorDir environment
+         variable or -p:OperatorDir="...". Default is the usual Steam path. -->
+    <OperatorDir Condition="'$(OperatorDir)' == ''">C:\Program Files (x86)\Steam\steamapps\common\OPERATOR</OperatorDir>
+  </PropertyGroup>
+
+  <Target Name="OdgCheckOperatorDir" BeforeTargets="BeforeBuild">
+    <Error Condition="!Exists('$(OperatorDir)\MelonLoader\net6\MelonLoader.dll')"
+           Text="MelonLoader was not found at '$(OperatorDir)\MelonLoader\net6\MelonLoader.dll'.%0A  Set OperatorDir to your OPERATOR install folder, for example:%0A    dotnet build $(MSBuildProjectName) -c Release -p:OdgPublic=true -p:OperatorDir=&quot;D:\Games\OPERATOR&quot;%0A  The game must have been launched once with MelonLoader installed." />
+  </Target>
+
+</Project>

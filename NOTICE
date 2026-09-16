@@ -1,0 +1,52 @@
+ODG Operations
+Copyright (C) 2026 Archduke, Operator Development Group
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later
+version. The full text is in LICENSE.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+
+ADDITIONAL TERMS UNDER SECTION 7 OF THE GNU GPL VERSION 3
+
+The following terms are supplied under section 7 of the GNU General Public
+License version 3 and apply to all material in this repository.
+
+  a. Preservation of legal notices, under section 7(b).
+
+     You must preserve the copyright notice, the SPDX licence identifier at the
+     top of each source file, this NOTICE file, and LICENSE, in every copy and
+     in every modified version you convey.
+
+  b. Misrepresentation of origin, under section 7(c).
+
+     You may not misrepresent the origin of this material. A modified version
+     must be marked as modified, somewhere a user will see it, and must not
+     present itself as an official ODG Operations release.
+
+  c. Publicity, under section 7(d).
+
+     You may not use the names "ODG", "ODG Operations", "Operator Development
+     Group" or "Archduke", or the ODG logo, for publicity in connection with a
+     modified version, or in any way that suggests the authors endorse it.
+
+  d. Trademarks, under section 7(e).
+
+     No rights are granted under trademark law to use the names "ODG", "ODG
+     Operations", "Operator Development Group" or "Archduke", or the ODG logo.
+     See TRADEMARKS.md.
+
+
+SCOPE
+
+The GNU GPL covers the source code in this repository. It does not cover the
+artwork, models, textures, audio, maps or packaged content distributed as
+release assets, including content.odgpak and the mapdata archives. Those are
+licensed separately. See LICENSE-ASSETS.
+
+This repository contains no OPERATOR code, no OPERATOR assets and no decompiled
+material.

@@ -1,0 +1,15 @@
+bin/
+obj/
+*.user
+*.suo
+
+*.zip
+*.exe
+*.odgpak
+*.odgm
+
+*.key
+*token*.txt
+*.pat
+*.env
+secrets/
